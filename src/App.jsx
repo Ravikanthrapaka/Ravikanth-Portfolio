@@ -1,11 +1,11 @@
-// import { PixelImage } from "@/registry/magicui/pixel-image";
+
 import { TypingAnimation } from "@/components/magicui/typing-animation";
 import { WordRotate } from "@/components/magicui/word-rotate";
 import { GoDotFill } from "react-icons/go";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import { ConfettiButton } from "@/components/magicui/confetti";
 import React from 'react'
-import { Ripple } from "@/components/magicui/ripple";
+
 import User from "./assets/User.png"
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
@@ -44,9 +44,7 @@ function App() {
           </div>
         
         </div>
-
-        
-
+        <img className='h-40 w-40 object-cover rounded-full' src={User} alt="" />
       </div>
     </section>
 
