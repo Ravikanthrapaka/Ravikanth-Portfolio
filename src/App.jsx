@@ -116,7 +116,7 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 import { ConfettiButton } from "@/components/magicui/confetti";
 import React from 'react';
 
-import User from "./assets/User.png";
+import User from "./assets/User1.png";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -141,7 +141,7 @@ function App() {
             </div>
           </div>
 
-          <img className="h-36 w-36 sm:h-40 sm:w-40 object-cover rounded-full" src={User} alt="Profile" />
+          <img className="h-36 w-36 sm:h-40  sm:w-40 object-cover rounded-full" src={User} alt="Profile" />
         </div>
       </section>
 
